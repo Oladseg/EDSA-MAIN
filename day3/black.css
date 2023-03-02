@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(29, 28, 28);
+    height: 100vh;
+    width: 100%;
+}
+
+.links_head{
+    background-color: rgb(29, 28, 28);
+    padding: 20px;
+    width: 100%;
+}
+
+.head_links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 65%;
+/* background-color: blue; */
+}
+
+#sign_in{
+    background-color: rgba(35, 121, 250, 0.879);
+    padding: 10px 25px;
+    border-radius: 4px;
+    color: white;
+}
+
+.link{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+}
+.google{
+    text-align: center;
+    /* height: 50px; */
+    /* width: 100%; */
+    /* background-color: blue; */
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 70px 0px 10px 0px;
+}
+
+.blue{
+    color: rgba(255, 255, 255, 0.879);
+}
+.red{
+    color: rgb(255, 255, 255);
+}
+.yellow{
+    color: rgb(255, 255, 255);
+}
+.green{
+    color: rgb(255, 255, 255);
+}
+
+.search>input{
+    display: flex;
+    width: 40%;
+    height: 20px;
+    border-radius: 40px;
+    text-align: left;
+    padding: 10px 40px;
+    justify-content: center;
+    border-style: solid;
+    border-color: rgb(62, 61, 63);
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    background-color: rgb(29, 28, 28);;
+}
+
+.button{
+    display: flex;
+    margin: 20px 0px 20px 0px;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: rgb(62, 61, 63);
+    /* border-color: rgb(62, 61, 63); */
+    /* background-color: rgb(62, 61, 63); */
+    /* text-align: center; */
+}
+
+.button input,button{
+    padding: 5px 10px;
+    font-weight: 500;
+    background-color: rgb(62, 61, 63);
+    border-color: rgb(62, 61, 63);
+    color: aliceblue;
+}
+
+.languages p{
+    padding: 20px 0px 70px 0px;
+    text-align: center;
+    color: aliceblue;
+    /* background-color: red; */
+}
+
+.languages p a{
+    text-decoration: none;
+    color: rgb(98, 122, 243);
+}
+footer{
+    background-color: rgb(27, 26, 26);
+    padding: 20px 0px 20px 20px;
+    margin-top: 70px;
+}
+
+#Nigeria{
+    padding-bottom: 30px;
+    color: aliceblue;
+    /* background-color: black; */
+}
+
+.footer_links{
+    text-align: center;
+    /* color: aliceblue; */
+    /* display: none; */
+}
+
+.footer_links a{
+    text-decoration: none;
+    color: aliceblue;
+}
